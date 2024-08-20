@@ -1,0 +1,6 @@
+[submodule "qemu"]
+	path = qemu
+	url = https://github.com/shml1n/qemu.git
+[submodule "example/verifyPin/libopencm3"]
+	path = example/verifyPin/libopencm3
+	url = https://github.com/libopencm3/libopencm3.git

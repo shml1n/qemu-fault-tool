@@ -1,0 +1,11 @@
+qemu_executable_path: "qemu/build/qemu-system-arm"
+# Uncomment this to fault u-boot
+# qemu_executable_path: "qemu/build/qemu-system-aarch64"
+
+qemu_img_executable_path: "qemu/build/qemu-img"
+qemu_options: "-M stm32vldiscovery"
+# Uncomment this to fault u-boot
+# qemu_options: "-M virt -cpu cortex-a57 -m 24M"
+
+qemu_fault_plugin_path: "qemu/build/contrib/plugins/libfinalfaultmtt.so"
+qemu_snapshot_plugin_path: "qemu/build/contrib/plugins/libsavevmafter.so"
