@@ -23,7 +23,7 @@ If you plan compiling the verifyPin example you need to install the ARM GNU cros
 Clone this repository:
 
 ```shell
-$ git clone --recurse-submodules git@github.com:shml1n/qemu_fault_tool.git
+$ git clone --recurse-submodules git@github.com:shml1n/qemu-fault-tool.git
 ```
 
 Compile QEMU:
