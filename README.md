@@ -7,23 +7,15 @@ A QEMU based tool to achieve exhaustive fault injection on various targets. This
 In order to build QEMU you need to install some packages. This can be done with the following command:
 
 ```shell
-$ sudo apt install git libglib2.0-dev libfdt-dev libpixman-1-dev zlib1g-dev ninja-build libcapstone-dev
+$ sudo apt install build-essential bison flex gcc-arm-none-eabi git libcapstone-dev libfdt-dev libglib2.0-dev libpixman-1-dev ninja-build zlib1g-dev python3-rich python3-tqdm python3-venv python3-yaml
 ```
-
-Install the Python script dependencies using the following command:
-
-```shell
-$ pip install -r requirements.txt
-```
-
-If you plan compiling the verifyPin example you need to install the ARM GNU cross compilation toolchain available at https://developer.arm.com/downloads/-/arm-gnu-toolchain-downloads
 
 ## Compilation
 
 Clone this repository:
 
 ```shell
-$ git clone --recurse-submodules git@github.com:shml1n/qemu-fault-tool.git
+$ git clone --recurse-submodules https://github.com/shml1n/qemu-fault-tool.git
 ```
 
 Compile QEMU:
